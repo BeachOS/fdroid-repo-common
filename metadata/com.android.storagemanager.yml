@@ -1,0 +1,21 @@
+Categories:
+  - System
+License: Apache-2.0
+SourceCode: https://gitlab.com/BeachOS/platform_packages_apps_StorageManager
+IssueTracker: https://gitlab.com/BeachOS/BeachOS/issues
+Changelog: https://gitlab.com/BeachOS/BeachOS/-/issues/110
+
+Summary: System Updater and Storage Manager
+Description: |
+    Seamless Update Client is the System Update Client used in BeachOS
+    This update is needed to workaround an issue with the April 2020
+    update of BeachOS. Simply install this update and launch the update
+    client either by going to Settings -> System -> System update
+    settings, or via the launcher (named Updater, with a matching icon),
+    and it will download and install the update.
+
+RepoType: git
+Repo: https://gitlab.com/BeachOS/platform_packages_apps_StorageManager.git
+
+AutoUpdateMode: None
+UpdateCheckMode: None
